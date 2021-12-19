@@ -1,3 +1,4 @@
+NOTE: This repository will not be updated as long as they don't add the protocol or changes the protocol code
 ### Plugins
 | Name | Description |
 | ------------- | -----|
