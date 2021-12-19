@@ -19,7 +19,7 @@ namespace MCGalaxy {
 
 		void KickNoP3(Player p) {
 			byte protocol = p.ProtocolVersion;            
-			if (p.ProtocolVersion != Server.VERSION_0017) {
+			if (p.ProtocolVersion != Server.VERSION_0016) {
 				p.Leave("Please connect using c0.0.16 only!.", true);
 				p.cancellogin = true; 
 		    }
