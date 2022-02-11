@@ -2,11 +2,11 @@ using System;
 using MCGalaxy.Events;
 using MCGalaxy.Events.PlayerEvents;
 
-namespace MCGalaxy {
+namespace PluginKickNoP4 {
 	
-	public class PluginKickNoP4 : Plugin {
+	public class KickNoP4 : Plugin {
 		public override string creator { get { return "p1glynlol"; } } //made from aleksb385 KickJini.cs
-		public override string MCGalaxy_Version { get { return "1.9.3.6"; } }
+		public override string MCGalaxy_Version { get { return "1.9.3.5"; } }
 		public override string name { get { return "KickNoP4"; } }
 
 		public override void Load(bool startup) {
@@ -18,10 +18,10 @@ namespace MCGalaxy {
 		}
 
 		void KickNoP4(Player p) {
-			byte protocol = p.ProtocolVersion;            
+			byte protocol = p.ProtocolVersion;
 			if (p.ProtocolVersion != Server.VERSION_0017) {
 				p.Leave("Please connect using c0.0.17-c0.0.18 only!.", true);
-				p.cancellogin = true; 
+				p.cancellogin = true;
 		    }
 		}
     }
