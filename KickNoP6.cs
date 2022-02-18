@@ -1,4 +1,5 @@
 using System;
+using MCGalaxy;
 using MCGalaxy.Events;
 using MCGalaxy.Events.PlayerEvents;
 
@@ -10,14 +11,14 @@ namespace PluginKickNoP6 {
 		public override string name { get { return "KickNoP6"; } }
 
 		public override void Load(bool startup) {
-			OnPlayerConnectEvent.Register(KickNoP6, Priority.High);
+			OnPlayerConnectEvent.Register(KickClient, Priority.High);
 		}
 		
 		public override void Unload(bool shutdown) {
-			OnPlayerConnectEvent.Unregister(KickNoP6);
+			OnPlayerConnectEvent.Unregister(KickClient);
 		}
 
-		void KickNoP6(Player p) {
+		void KickClient(Player p) {
 			byte protocol = p.ProtocolVersion;
 			if (p.ProtocolVersion != Server.VERSION_0020) {
 				p.Leave("Please connect using c0.0.20a_01-c0.0.23a_01 only!.", true);

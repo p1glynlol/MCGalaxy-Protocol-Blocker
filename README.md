@@ -2,7 +2,7 @@ NOTE: This repository will not be updated as long as UnknownShadow200/aleksb385 
 
 This is a protocol blocker plugin, useful for player that want to create a c0.0.16a_02-c0.0.23a_01 MCGalaxy server. but don't want any newer/older clients to connect.
 
-Updated as of 11 February 2022
+Updated as of 18 February 2022
 
 ### Plugins
 | Name | Description |
