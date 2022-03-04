@@ -7,8 +7,8 @@ Updated as of 18 February 2022
 ### Plugins
 | Name | Description |
 | ------------- | -----|
-|  **KickNoP3** | 	Only allows people using c0.0.16 to login.
-|  **KickNoP4** | 	Only allows people using c0.0.17-c0.0.18 to login.
-|  **KickNoP5** | 	Only allows people using c0.0.19 to login.
-|  **KickNoP6** | 	Only allows people using c0.0.20-c0.0.23 to login.
-|  **KickNoP7** | 	Only allows people using c0.28-c0.30-renew and ClassiCube (both Enhanced and Classic Mode) to login.
+|  **KickNoP3** | 	Only allows player using c0.0.16 to login.
+|  **KickNoP4** | 	Only allows player using c0.0.17-c0.0.18 to login.
+|  **KickNoP5** | 	Only allows player using c0.0.19 to login.
+|  **KickNoP6** | 	Only allows player using c0.0.20-c0.0.23 to login.
+|  **KickNoP7** | 	Only allows player using c0.28-c0.30-renew and ClassiCube (both Enhanced and Classic Mode) to login.
