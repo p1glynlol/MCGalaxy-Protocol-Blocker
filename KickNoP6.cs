@@ -19,8 +19,8 @@ namespace PluginKickNoP6 {
 		}
 
 		void KickClient(Player p) {
-			byte protocol = p.ProtocolVersion;
-			if (p.ProtocolVersion != Server.VERSION_0020) {
+			byte protocol = p.Session.ProtocolVersion;
+			if (p.Session.ProtocolVersion != Server.VERSION_0020) {
 				p.Leave("Please connect using c0.0.20a_01-c0.0.23a_01 only!.", true);
 				p.cancellogin = true;
 		    }
