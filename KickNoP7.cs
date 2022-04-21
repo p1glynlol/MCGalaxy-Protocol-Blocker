@@ -19,8 +19,8 @@ namespace PluginKickNoP7 {
 		}
 
 		void KickClient(Player p) {
-			byte protocol = p.ProtocolVersion;
-			if (p.ProtocolVersion != Server.VERSION_0030) {
+			byte protocol = p.Session.ProtocolVersion;
+			if (p.Session.ProtocolVersion != Server.VERSION_0030) {
 				p.Leave("Please connect using c0.28-c0.30-renew only!.", true);
 				p.cancellogin = true;
 		    }
