@@ -1,4 +1,4 @@
-NOTE: This repository will not be updated until UnknownShadow200 (or alexsb385) make changes to the KickNoCC code.
+NOTE: This repository will not be updated until UnknownShadow200 (or aleksb385/Alex_) make changes to the KickNoCC code.
 
 This is a protocol blocker plugin, useful for player that want to create a c0.0.16a_02-c0.0.23a_01 MCGalaxy server. but don't want any newer or older clients to connect.
 
