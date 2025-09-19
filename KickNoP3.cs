@@ -4,7 +4,7 @@ using MCGalaxy.Events;
 using MCGalaxy.Events.PlayerEvents;
 
 public class KickNoP3 : Plugin {
-		public override string creator { get { return "p1glynlol"; } } //forked from aleksb385/Alex_ KickJini.cs
+		public override string creator { get { return "p1glynlol"; } } //forked from Alex_ KickJini.cs
 		public override string MCGalaxy_Version { get { return "1.9.4.3"; } }
 		public override string name { get { return "KickNoP3"; } }
 
